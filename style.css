@@ -11,6 +11,34 @@ body{
     background-size: cover;
 }
 
+.header {
+    background-color: aquamarine;
+}
+.header_body {
+    border: 1px solid #0046af;
+    width: 1200px;
+    margin: 0 auto;
+}
+.__logo {
+    width: 100px;
+}
+.header__menu {
+    border: 1px solid #ffffff;
+    margin-left: 300px;
+}
+
+.header__menu li {
+    display: inline-block;
+    margin: 0 50px;
+}
+
+.header__menu a {
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.header__button {
+}
 .card-1 {
     background: linear-gradient(to left top,#000, #eeff00);
     width: 350px;
@@ -80,4 +108,33 @@ body{
 }
 .card-4__name {
     font-family: 'Monomaniac One', sans-serif;
+}
+
+.myVideo {
+    background-color: #eeff00;
+    margin-top: 100px;
+    padding: 50px;
+}
+.video{
+    border: 5px solid #ff0000;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+.button{
+    padding: 20px 40px;
+    margin-top: 40px;
+    background-color: #000;
+    color: #ff0000;
+    border-radius: 10px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #00ffbf;
+    color: #000;
+    letter-spacing: 0px;
 }
